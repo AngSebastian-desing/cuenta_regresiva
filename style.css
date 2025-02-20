@@ -46,3 +46,9 @@ h1{
     aspect-ratio: 1 / 1.2; /* Relación de aspecto 1:1 (cuadrada) */
     object-fit: cover; /* Esto mantiene la relación de aspecto de la imagen */
 }
+
+#background-container {
+    transition: background-image 1s ease-in-out; /* Agrega una transición suave */
+    background-size: cover;
+    background-position: center;
+}
